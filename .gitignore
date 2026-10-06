@@ -1,0 +1,19 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java/Maven
+target/
+
+#Node/React
+node_modules/
+build/
+dist/
+
+# Logs
+*.log

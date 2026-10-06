@@ -1,0 +1,12 @@
+2026-09-27 14:45:35.395320-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTISTA" not found (this database is empty); SQL statement:
+select a1_0.id_artista,a1_0.nombre from artista a1_0 [42104-240]
+2026-09-27 14:45:58.590730-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTISTA" not found (this database is empty); SQL statement:
+select a1_0.id_artista,a1_0.nombre from artista a1_0 [42104-240]
+2026-09-27 14:47:25.660559-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTISTA" not found (this database is empty); SQL statement:
+select a1_0.id_artista,a1_0.nombre from artista a1_0 [42104-240]
+2026-09-28 16:52:25.052387-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ARTISTA" not found (this database is empty); SQL statement:
+select a1_0.id_artista,a1_0.nombre from artista a1_0 [42104-240]

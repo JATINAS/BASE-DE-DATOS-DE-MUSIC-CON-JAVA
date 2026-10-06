@@ -1,0 +1,64 @@
+.album-form {
+    background-color: #613704;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+
+    h2 {
+        color: #fffa00;
+        margin-bottom: 15px;
+    }
+
+    form > div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        color: #ff9309;
+        margin-bottom: 5px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #442c02;
+        border-radius: 5px;
+        background-color: #794507;
+        color: #fffa00;
+    }
+
+    input:focus, select:focus {
+        outline: none;
+        border-color: #ff9309;
+    }
+
+    button {
+        margin: 5px 5px 5px 0;
+        padding: 8px 15px;
+        background-color: #613704;
+        border: 1px solid #442c02;
+        color: #ff9309;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #794507;
+        border-color: #ff9309;
+        color: #fffa00;
+    }
+
+    .cancel-button {
+        background-color: #442c02;
+        border: 1px solid #613704;
+        color: #cbc710;
+    }
+
+    .cancel-button:hover {
+        background-color: #613704;
+        border-color: #ff9309;
+        color: #fffa00;
+    }
+}
+

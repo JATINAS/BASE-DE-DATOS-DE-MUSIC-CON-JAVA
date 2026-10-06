@@ -1,0 +1,140 @@
+.search-results {
+    background-color: #613704;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.loading {
+    color: #fffa00;
+    font-size: 50px;
+}
+
+.song {
+    margin: 10px 0;
+
+    h3 {
+        color: #e08206;
+    }
+
+    h5 {
+        color: #e08206;
+    }
+    
+
+    button {
+        margin: 10px 0;
+        padding: 5px;
+        background-color: #613704;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #794507;
+            border-color: #613704;
+            color: #cbc710;
+        }
+    }
+}
+
+.results-section {
+    width: 100%;
+    margin: 10px;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    .searchBar-section {
+        padding: 10px;
+        font-size: 20px;
+
+        div {
+            margin-bottom: 10px;
+
+            label {
+                margin-right: 10px;
+            }
+
+            input {
+                font-size: 15px;
+            }
+        }
+
+        button {
+            margin: 10px 0;
+            padding: 5px;
+            background-color: #613704;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #794507;
+            border-color: #613704;
+            color: #cbc710;
+        }
+        }
+    }
+}
+
+.albums {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+    .album {
+        justify-self: center;
+        text-decoration: none;
+
+        img {
+            border-radius: 30px;
+        }
+
+        img:hover {
+            transition: 0.3s;
+            scale: 1.5;
+           
+            h3, p {
+                display: none;
+            }
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px 5px 0 0;
+            border: 1px solid #442c02;
+            border-radius: 5px;
+            background-color: #613704;
+            color: #ff9309;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #794507;
+            border-color: #ff9309;
+            color: #fffa00;
+        }
+
+        .delete-button {
+            color: #fffa00;
+        }
+
+        .delete-button:hover {
+            background-color: #442c02;
+            border-color: #ff9309;
+            color: #ff9309;
+        }
+    }
+
+    h2 {
+        margin: 5px 0px;
+        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;
+    }
+
+    p {
+        margin: 5px 0px;
+    }
+}

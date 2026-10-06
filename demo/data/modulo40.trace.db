@@ -1,0 +1,21 @@
+2026-09-16 20:57:26.108052-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 where c1_0.nombre=? and c1_0.password=? [42102-240]
+2026-09-16 21:08:28.916990-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 [42102-240]
+2026-09-16 21:12:09.722686-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 [42102-240]
+2026-09-16 21:21:09.194374-06:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 where c1_0.nombre=? and c1_0.password=? [42102-240]
+2026-09-16 21:21:43.092570-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 where c1_0.nombre=? and c1_0.password=? [42102-240]
+2026-09-16 21:22:09.299610-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 where c1_0.nombre=? and c1_0.password=? [42102-240]
+2026-09-16 21:24:30.499422-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select c1_0.id_cliente,c1_0.nombre,c1_0.password from cliente c1_0 where c1_0.nombre=? and c1_0.password=? [42102-240]

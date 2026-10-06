@@ -1,0 +1,15 @@
+2026-08-31 20:42:30.882842-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+select u1_0.id_usuario,u1_0.edad,u1_0.nombre from artista u1_0 [42104-240]
+2026-08-31 20:42:42.278746-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+insert into artista (edad,nombre,id_usuario) values (?,?,default) [42104-240]
+2026-08-31 20:42:48.308673-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+select u1_0.id_usuario,u1_0.edad,u1_0.nombre from artista u1_0 [42104-240]
+2026-08-31 20:46:46.004804-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+select u1_0.id_usuario,u1_0.edad,u1_0.nombre from artista u1_0 [42104-240]
+2026-08-31 20:47:16.072368-06:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+select u1_0.id_usuario,u1_0.edad,u1_0.nombre from artista u1_0 [42104-240]
